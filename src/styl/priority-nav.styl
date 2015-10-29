@@ -1,0 +1,95 @@
+/* ==========================================================================
+   Base
+   ========================================================================== */
+
+// Colors
+text-color = #59514f
+bg-color = #d1c6b8
+
+html
+    font-family Courier, Courier New, monospace
+    font-size 16px
+    line-height 1.5
+    color text-color
+    background-color rgb(234,234,234)
+
+body
+    margin 0 auto
+    padding 0 5%
+    max-width 900px
+
+header
+    position relative
+
+
+/* ==========================================================================
+   Nav
+   ========================================================================== */
+.Nav
+    position relative
+    box-sizing content-box
+    background-color bg-color
+    border 1px solid text-color
+    margin 1em 0
+
+    > ul
+        list-style none
+        margin 0
+        padding 0
+
+    a
+        color text-color
+        background-color bg-color
+        text-decoration none
+        padding 1rem 2rem
+        text-align center
+
+        &:focus, &:hover
+            background-color lighten(bg-color, 20%)
+
+    > button
+        display block
+        position absolute
+        right 0
+        top 0
+        bottom 0
+        border 0
+        background-color bg-color
+        padding 0 .7em
+        &[aria-hidden="true"]
+            display none
+        &:focus, &:hover
+            background-color lighten(bg-color, 20%)
+        &:before
+            icon "☰"
+            font-size 2rem
+            line-height 1
+
+    button + ul
+        border 1px solid text-color
+        position absolute
+        right -1px
+        top 100%
+        z-index 1
+
+        &[aria-hidden="true"]
+            display none
+
+        li, a
+            display block
+
+.Nav-visible
+    display table
+    height 100%
+
+    > li
+        display inline-table
+        height 100%
+        vertical-align middle
+        .no-js &
+            display inline-block
+
+        > a
+            display table-cell
+            height 100%
+            vertical-align middle
