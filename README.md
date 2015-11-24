@@ -2,7 +2,7 @@
 
 Un modèle de navigation responsive où les liens sont classés par ordre d'importance (ou de priorité).
 
-## [Demo](http://jodd.net)
+## [Demo](http://jodd.net/2015/10/27/priority-nav.html)
 
 ## Ressources
 
