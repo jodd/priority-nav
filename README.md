@@ -1,10 +1,11 @@
-# Menu de navigation responsive ("priority+ pattern")
+# Responsive navigation (priority+ pattern)
 
-Un modèle de navigation responsive où les liens sont classés par ordre d'importance (ou de priorité).
+A navigation pattern where items are organized in order of importance.
 
-## [Demo](http://jodd.net/2015/10/27/priority-nav.html)
+[Codepen demo](https://codepen.io/jod/pen/xwjGYa)
 
-## Ressources
+## Resources
 
+- [revisiting the priority+ pattern](http://bradfrost.com/blog/post/revisiting-the-priority-pattern/)
 - [DIY Priority+ Navigation](https://css-tricks.com/diy-priority-plus-nav/)
 - [PriorityNav.js](http://gijsroge.github.io/priority-nav.js/)
